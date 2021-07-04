@@ -1,0 +1,20 @@
+{
+  "name": "webpack-app",
+  "version": "1.0.0",
+  "description": "webpack ",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dest/bundle.js" 
+  },
+  "author": "hafiz097 <hafizulhaque.cse.cuet@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "static-server": "^2.2.1",
+    "style-loader": "^0.16.1"
+  }
+}
