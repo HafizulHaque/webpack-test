@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dest/bundle.js" 
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dest/bundle.js"
   },
   "author": "hafiz097 <hafizulhaque.cse.cuet@gmail.com>",
   "license": "ISC",
@@ -13,8 +13,14 @@
     "jquery": "^3.6.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
     "css-loader": "^0.28.0",
     "static-server": "^2.2.1",
-    "style-loader": "^0.16.1"
+    "style-loader": "^0.16.1",
+    "webpack": "^5.42.0"
   }
 }
